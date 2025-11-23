@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  web:
+    image: asah-ilt6:latest
+    env_file:
+      - ./.env
+    ports:
+      - "8081:8081"
+  
+  # postgres:
+  #   image: postgres:14-alpine
+  #   ports:
+  #     - 5432:5432
+  #   volumes:
+  #     - ~/apps/postgres:/var/lib/postgresql/data
+  #   environment:
+  #     - POSTGRES_PASSWORD=password08asd7
+  #     - POSTGRES_USER=ilt6
+  #     - POSTGRES_DB=ilt6
