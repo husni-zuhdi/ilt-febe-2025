@@ -39,11 +39,10 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}:{{port}}/authentications",
+					"raw": "{{base_url}}{{port}}/authentications",
 					"host": [
-						"{{base_url}}"
+						"{{base_url}}{{port}}"
 					],
-					"port": "{{port}}",
 					"path": [
 						"authentications"
 					]
@@ -94,11 +93,10 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}:{{port}}/authentications",
+					"raw": "{{base_url}}{{port}}/authentications",
 					"host": [
-						"{{base_url}}"
+						"{{base_url}}{{port}}"
 					],
-					"port": "{{port}}",
 					"path": [
 						"authentications"
 					]
@@ -150,11 +148,10 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}:{{port}}/authentications",
+					"raw": "{{base_url}}{{port}}/authentications",
 					"host": [
-						"{{base_url}}"
+						"{{base_url}}{{port}}"
 					],
-					"port": "{{port}}",
 					"path": [
 						"authentications"
 					]
@@ -194,11 +191,10 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}:{{port}}/users",
+					"raw": "{{base_url}}{{port}}/users",
 					"host": [
-						"{{base_url}}"
+						"{{base_url}}{{port}}"
 					],
-					"port": "{{port}}",
 					"path": [
 						"users"
 					]
@@ -237,11 +233,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}:{{port}}/users/{{userId}}",
+					"raw": "{{base_url}}{{port}}/users/{{userId}}",
 					"host": [
-						"{{base_url}}"
+						"{{base_url}}{{port}}"
 					],
-					"port": "{{port}}",
 					"path": [
 						"users",
 						"{{userId}}"
@@ -284,7 +279,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"name\": \"Skibidi\",\n    \"description\": \"Skibidi Toilet Biddet\",\n    \"category\": \"Home Appliance\",\n    \"price\": 500,\n    \"brand\": \"PT. Maymay\"\n}",
+					"raw": "{\n\t\"name\": \"Wishkus 500gr\",\n    \"description\": \"Wishkus untuk majikan kesayangan anda\",\n    \"category\": \"Foods\",\n    \"price\": 50000,\n    \"brand\": \"PT. Miaomiao\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -292,11 +287,10 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}:{{port}}/products",
+					"raw": "{{base_url}}{{port}}/products",
 					"host": [
-						"{{base_url}}"
+						"{{base_url}}{{port}}"
 					],
-					"port": "{{port}}",
 					"path": [
 						"products"
 					]
@@ -335,11 +329,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}:{{port}}/products",
+					"raw": "{{base_url}}{{port}}/products",
 					"host": [
-						"{{base_url}}"
+						"{{base_url}}{{port}}"
 					],
-					"port": "{{port}}",
 					"path": [
 						"products"
 					]
